@@ -8,16 +8,17 @@ a{
   text-decoration: none;
 
 }
+
+
+/* Start nav section  */
 .nav-section{
     display: flex;
     justify-content: space-around;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     align-items: center;
+    height: 100px;
 }
-
-
-
 .nav-logo{
     display: flex;
     gap: 2px;
@@ -31,3 +32,98 @@ a{
     list-style: none;
     margin-left: 20px;
 }
+#g{
+    color: #FF42A5;
+}
+.nav-head{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* header banner section start */
+
+.header-banner{
+    
+}
+.header-banner-main{
+    display: flex;
+    max-width: var(--container-width);
+    align-items: center;
+    justify-content: center;
+    margin: var(--container-margin);
+    
+}
+.nav-logo img{
+    width: 86.041px;
+    height: 40px;
+}
+
+header-banner-left{
+    width: 50%;
+    
+}
+
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-title-2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-banner-left li{
+    color: #534C64;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    list-style: none;
+}
+.btn-primary{
+    margin-top: 15px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn-blue{
+    background: #4EC5F7;
+    
+}
+
+
+.heder-banner-right img{
+    width: 600px;
+    height: 600px;
+    margin-left: 105px;
+}
+
+
+
