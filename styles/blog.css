@@ -90,7 +90,7 @@ header-banner-left{
 
 .header-banner-left li{
     color: #534C64;
-
+    background-image: url('../images/Group 14.png');
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
@@ -123,6 +123,28 @@ header-banner-left{
     width: 600px;
     height: 600px;
     margin-left: 105px;
+}
+
+
+/* Main section start */
+
+/* Main section-1 */
+
+.main-section-1{
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;  
+}
+
+.image-main{
+    display: flex;
+    margin-top: 48px; 
+}
+
+.image{
+    margin-right: 20px;
+    width: 342px;
+    height: 400px;
 }
 
 
