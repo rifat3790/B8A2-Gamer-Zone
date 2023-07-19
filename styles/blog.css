@@ -99,6 +99,19 @@ header-banner-left{
     text-transform: lowercase;
     list-style: none;
 }
+
+.follow-btn{
+    width: 150px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.fa-brands fa-youtube{
+    margin-left: 10px;
+}
 .btn-primary{
     margin-top: 15px;
     display: inline-flex;
@@ -128,42 +141,86 @@ header-banner-left{
 
 /* Main section start */
 
-/* Main section-1 */
 
+/* Main section 1 start */
+.section-1{
+
+}
 .main-section-1{
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 120px;  
+    position: relative;
+    /* left: 555px; */
+    /* margin-left: 200px; */
 }
-.section-1-header-title{
-    color: #0B0223;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.section-1-header-descrition{
-    color: #534C64;
+.games-funny-videos{
+    max-width: var(--container-width);
+    margin: var(--container-margin);
+    margin-top: 70px;
+    margin-bottom: 70px;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
+}
+.games-funny-videos h3{
+    font-weight: 700;
 }
 
-.image-main{
+.games-funny-videos p{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: var(--primary-text-color);
+} 
+
+.video-items{
     display: flex;
-    margin-top: 48px; 
+    gap: 20px;
 }
-#funny{
-    color:  #fa43db;
+.video-box{
+    width: 258px;
+    position: relative;
+    
 }
 
-.image{
-    margin-right: 20px;
-    width: 342px;
-    height: 400px;
+.video-box img{
+    width: 100%;
+}
+.video-box > img:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 12px;
+}
+.video-box .video-caption{
+    font-size: 16px;
+    color: var(--primary-text-color);
+    text-align: left;
+}
+.overlay-watch-icon{
+    display: none;
+    position: absolute;
+    top: 100px;
+    border-radius: 10px;
+    
+}
+.overlay-watch-icon img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.overlay-watch-icon p{
+    color: #FF42A5;
+    font-weight: bold;
+}
+
+.video-box:hover .overlay-watch-icon{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+    cursor: pointer;
+    background-color: #00000070;
+    margin-top: -100px;
 }
 
 /* Main section 2 starts */
