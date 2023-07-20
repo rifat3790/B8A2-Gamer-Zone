@@ -162,15 +162,30 @@ header-banner-left{
     margin-bottom: 70px;
     text-align: center;
 }
-.games-funny-videos h3{
+#section-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
 }
+#funny{
+    color: #F948B2;
+}
+#section-1-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+    margin-bottom: 24px;
 
-.games-funny-videos p{
-    margin-top: 15px;
-    margin-bottom: 40px;
-    color: var(--primary-text-color);
-} 
+}
 
 .video-items{
     display: flex;
